@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "26497000000009006",
+      "name": "crystal-hospital",
+      "domain": {
+        "id": "10091352275",
+        "name": "crystal-hospital-870617206.development"
+      },
+      "timezone": "Africa/Lagos",
+      "env": [
+        {
+          "idx": 1,
+          "id": "870617206",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

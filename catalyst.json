@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "targets": [
+      "hospital"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "crystal_specialist_hospital",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}

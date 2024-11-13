@@ -1,0 +1,342 @@
+[debug] [2024-11-12T15:23:55.086Z] : 
+[debug] [2024-11-12T15:23:55.087Z] : ----------------------------------------------------------------------
+[debug] [2024-11-12T15:23:55.087Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-11-12T15:23:55.088Z] : CLI Version:  1.17.6
+[debug] [2024-11-12T15:23:55.088Z] : Platform:     win32
+[debug] [2024-11-12T15:23:55.089Z] : Node Version: v18.18.0
+[debug] [2024-11-12T15:23:55.109Z] : Time:         Tue Nov 12 2024 16:23:55 GMT+0100 (West Africa Standard Time)
+[debug] [2024-11-12T15:23:55.110Z] : ----------------------------------------------------------------------
+[debug] [2024-11-12T15:23:55.110Z] : 
+[debug] [2024-11-12T15:23:57.118Z] : > authorizing via signed-in user option
+[debug] [2024-11-12T15:23:57.118Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-11-12T15:23:57.144Z] : > refreshing access token <
+[debug] [2024-11-12T15:23:57.146Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-11-12T15:23:58.128Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 15:24:02 GMT","content-type":"application/json;charset=UTF-8","content-length":"1980","connection":"close","set-cookie":["zalb_b266a5bf57=a7f15cb1555106de5ac96d088b72e7c8; Path=/; Secure; HttpOnly","iamcsr=4295652e-776a-432e-bbf7-465607248727;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4295652e-776a-432e-bbf7-465607248727;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T15:23:58.145Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/26497000000009006 
+
+[debug] [2024-11-12T15:23:59.485Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 15:24:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=3d8c5ea7-8aa0-4827-b316-28229b1e1de3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3d8c5ea7-8aa0-4827-b316-28229b1e1de3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T15:23:59.493Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/26497000000009006/environment 
+
+[debug] [2024-11-12T15:24:00.348Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 15:24:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=c3d5ec374d3dc932973a3d50f55d8d00; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=089793aa-2370-4bb5-9391-19ca7c5803a6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=089793aa-2370-4bb5-9391-19ca7c5803a6;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T15:24:00.386Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/26497000000009006/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-11-12T15:24:02.196Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 15:24:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=e625f92e-11a3-4cd5-9ce3-571101256483;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e625f92e-11a3-4cd5-9ce3-571101256483;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T15:24:02.207Z] : unknown eol undefined hence skipping check
+[debug] [2024-11-12T15:24:02.416Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/26497000000009006/function/upsert 
+
+[debug] [2024-11-12T15:24:30.556Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 15:24:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=4333506a-4136-42fa-a63c-a082048352af;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4333506a-4136-42fa-a63c-a082048352af;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-11-12T15:24:30.775Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2024-11-12T15:24:30.775Z] : i Building Application...
+[info] [2024-11-12T15:24:34.179Z] : [react-plugin]: Creating an optimized production build...
+[info] [2024-11-12T15:24:39.030Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:24:39.032Z] : [react-plugin]: Module not found: Error: Can't resolve './components/header.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal'
+
+[info] [2024-11-12T15:24:39.032Z] : [react-plugin]:  
+[debug] [2024-11-12T15:24:39.033Z] : client deploy unsuccessful, reason : CatalystError: Compilation failed
+    at CatalystError.getErrorInstance (C:\Users\Hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\error.js:43:20)
+    at C:\Users\Hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\client-utils.js:154:45
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\client-utils.js:6:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[warn] [2024-11-12T15:24:39.034Z] : ‼ client: Compilation failed
+[info] [2024-11-12T15:24:39.034Z] : 
+[error] [2024-11-12T15:24:39.035Z] : × client: deploy skipped
+[info] [2024-11-12T15:24:39.035Z] : 
+[info] [2024-11-12T15:24:39.036Z] : i functions(hospital): URL => https://crystal-hospital-870617206.development.catalystserverless.com/server/hospital/execute
+[info] [2024-11-12T15:24:39.037Z] : √ functions(hospital): deploy successful
+[info] [2024-11-12T15:24:39.037Z] : 
+[info] [2024-11-12T15:24:39.037Z] : √ Catalyst deploy complete!
+[error] [2024-11-12T15:24:39.042Z] : × Compilation failed
+[debug] [2024-11-12T15:24:39.042Z] : Error Stack: CatalystError: Compilation failed
+    at CatalystError.getErrorInstance (C:\Users\Hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\error.js:43:20)
+    at C:\Users\Hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\client-utils.js:154:45
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\client-utils.js:6:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-11-12T15:24:39.043Z] : Original Error: Error: Compilation failed
+    at module.exports (C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\node_modules\zcatalyst-cli-plugin-react\lib\build\index.js:274:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-11-12T15:24:39.043Z] : Error Status: 500
+[debug] [2024-11-12T15:24:39.043Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-11-12T15:24:39.043Z] : TOTAL DURATION OF COMMAND EXEC : 41943
+[debug] [2024-11-12T15:24:39.060Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-11-12T15:24:40.757Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 15:24:45 GMT","content-length":"0","connection":"close","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=79a5713a-8061-4780-a038-3c619edc66b7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=79a5713a-8061-4780-a038-3c619edc66b7;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T15:27:22.488Z] : 
+[debug] [2024-11-12T15:27:22.491Z] : ----------------------------------------------------------------------
+[debug] [2024-11-12T15:27:22.491Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-11-12T15:27:22.492Z] : CLI Version:  1.17.6
+[debug] [2024-11-12T15:27:22.492Z] : Platform:     win32
+[debug] [2024-11-12T15:27:22.493Z] : Node Version: v18.18.0
+[debug] [2024-11-12T15:27:22.526Z] : Time:         Tue Nov 12 2024 16:27:22 GMT+0100 (West Africa Standard Time)
+[debug] [2024-11-12T15:27:22.526Z] : ----------------------------------------------------------------------
+[debug] [2024-11-12T15:27:22.526Z] : 
+[debug] [2024-11-12T15:27:23.887Z] : > authorizing via signed-in user option
+[debug] [2024-11-12T15:27:23.887Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2024-11-12T15:27:23.914Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/26497000000009006 
+
+[debug] [2024-11-12T15:27:25.052Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 15:27:29 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=8af8dc00-2741-4987-86d2-0472a39ad033;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8af8dc00-2741-4987-86d2-0472a39ad033;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T15:27:25.057Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/26497000000009006/environment 
+
+[debug] [2024-11-12T15:27:25.930Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 15:27:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=b14009a6059feb83ee8aa1c715a015c5; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=a14e63a6-8f1b-404d-ab30-ad16849ad990;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a14e63a6-8f1b-404d-ab30-ad16849ad990;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T15:27:26.558Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/26497000000009006/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-11-12T15:27:27.423Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 15:27:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=b14009a6059feb83ee8aa1c715a015c5; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=84851c89-bf68-474b-b915-2495533f284f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=84851c89-bf68-474b-b915-2495533f284f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T15:27:27.436Z] : unknown eol undefined hence skipping check
+[info] [2024-11-12T15:27:31.042Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-11-12T15:27:31.044Z] : 
+[info] [2024-11-12T15:27:31.045Z] : i Client[crystal_specialist_hospital]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-11-12T15:27:31.045Z] : 
+[info] [2024-11-12T15:27:34.839Z] : 
+[info] [2024-11-12T15:27:34.839Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2024-11-12T15:27:34.840Z] : i hospital: http://localhost:3000/server/hospital/execute
+[info] [2024-11-12T15:27:34.840Z] : 
+[info] [2024-11-12T15:27:34.840Z] : 
+[info] [2024-11-12T15:27:34.840Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-11-12T15:27:34.840Z] : i client[crystal_specialist_hospital]: http://localhost:3000/app/
+[info] [2024-11-12T15:27:34.841Z] : 
+[info] [2024-11-12T15:27:43.844Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:27:43.844Z] : [react-plugin]: Module not found: Error: Can't resolve './components/header.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal'
+[info] [2024-11-12T15:29:08.803Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:29:10.041Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:29:10.044Z] : [react-plugin]: Module not found: Error: Can't resolve './components/services.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal'
+[info] [2024-11-12T15:29:28.020Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:29:28.433Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:29:28.433Z] : [react-plugin]: Module not found: Error: Can't resolve './nav.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:29:44.201Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:29:44.554Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:29:44.554Z] : [react-plugin]: Module not found: Error: Can't resolve './nav.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:29:58.087Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:29:59.358Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:29:59.359Z] : [react-plugin]: Module not found: Error: Can't resolve './nav.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:30:02.147Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:30:02.393Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:30:02.394Z] : [react-plugin]: Module not found: Error: Can't resolve './nav.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:30:21.989Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:30:22.321Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:30:22.321Z] : [react-plugin]: Module not found: Error: Can't resolve './nav.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:30:26.406Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:30:26.688Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:30:26.689Z] : [react-plugin]: Module not found: Error: Can't resolve './nav.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:30:57.450Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:30:57.940Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:30:57.941Z] : [react-plugin]: Module not found: Error: Can't resolve './nav.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:31:03.954Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:31:04.274Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:31:04.275Z] : [react-plugin]: Module not found: Error: Can't resolve './nav.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:31:16.791Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:31:17.352Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:31:17.352Z] : [react-plugin]: Module not found: Error: Can't resolve './nav.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:32:09.256Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:32:09.706Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:32:09.706Z] : [react-plugin]: Module not found: Error: Can't resolve './nav.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:33:54.799Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:33:55.566Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:33:55.566Z] : [react-plugin]: Module not found: Error: Can't resolve './app.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:33:57.253Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:33:57.544Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:33:57.544Z] : [react-plugin]: Module not found: Error: Can't resolve './app.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:34:00.807Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:34:01.071Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:34:01.071Z] : [react-plugin]: Module not found: Error: Can't resolve './app.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:34:03.969Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:34:04.182Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:34:04.182Z] : [react-plugin]: Module not found: Error: Can't resolve './app.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:34:12.833Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:34:13.112Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:34:13.112Z] : [react-plugin]: Module not found: Error: Can't resolve './app.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:34:15.852Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:34:16.125Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-11-12T15:34:16.126Z] : [react-plugin]: [eslint] 
+src\crystal\components\header.jsx
+  Line 7:10:  'isModalOpen' is assigned a value but never used  no-unused-vars
+  Line 13:9:  'closeModal' is assigned a value but never used   no-unused-vars
+
+src\crystal\components\nav.jsx
+  Line 5:10:  'isModalOpen' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'closeModal' is assigned a value but never used   no-unused-vars
+[info] [2024-11-12T15:34:16.126Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-11-12T15:34:16.126Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-11-12T15:34:45.641Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:34:45.887Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:34:45.887Z] : [react-plugin]: Module not found: Error: Can't resolve './app.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:34:51.804Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:34:52.033Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:34:52.033Z] : [react-plugin]: Module not found: Error: Can't resolve './app.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:34:55.363Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:34:55.804Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-11-12T15:34:55.806Z] : [react-plugin]: [eslint] 
+src\crystal\components\nav.jsx
+  Line 5:10:  'isModalOpen' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'closeModal' is assigned a value but never used   no-unused-vars
+[info] [2024-11-12T15:34:55.807Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-11-12T15:34:55.808Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-11-12T15:35:08.378Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:35:08.708Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:35:08.709Z] : [react-plugin]: Module not found: Error: Can't resolve './zoho.jsx' in 'C:\Users\Hp\Desktop\crystal\crystal_specialist_hospital\src\crystal\components'
+[info] [2024-11-12T15:35:52.306Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:35:52.580Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-11-12T15:35:52.581Z] : [react-plugin]: [eslint] 
+src\crystal\components\app.jsx
+  Line 19:13:  'fetchZohoData' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-11-12T15:35:56.254Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T15:35:56.544Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-11-12T15:35:56.545Z] : [react-plugin]: [eslint] 
+src\crystal\components\nav.jsx
+  Line 5:10:  'isModalOpen' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'closeModal' is assigned a value but never used   no-unused-vars
+[info] [2024-11-12T15:35:56.546Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-11-12T15:35:56.548Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-11-12T17:05:25.554Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T17:05:26.698Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-11-12T17:05:26.700Z] : [react-plugin]: [eslint] 
+src\crystal\components\nav.jsx
+  Line 2:8:   'App' is defined but never used                   no-unused-vars
+  Line 5:10:  'isModalOpen' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'closeModal' is assigned a value but never used   no-unused-vars
+[info] [2024-11-12T17:05:26.703Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-11-12T17:05:26.704Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2024-11-12T17:05:27.048Z] : > refreshing access token <
+[debug] [2024-11-12T17:05:27.059Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-11-12T17:05:28.563Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 17:05:33 GMT","content-type":"application/json;charset=UTF-8","content-length":"1980","connection":"close","set-cookie":["zalb_b266a5bf57=a7f15cb1555106de5ac96d088b72e7c8; Path=/; Secure; HttpOnly","iamcsr=ec4c82c7-3658-4cf2-8e4a-853fc114ad25;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ec4c82c7-3658-4cf2-8e4a-853fc114ad25;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-11-12T17:05:28.768Z] : [react-plugin]: Compiling...
+[info] [2024-11-12T17:05:29.067Z] : [react-plugin]: Compiled successfully!
+[info] [2024-11-12T17:05:29.070Z] : [react-plugin]: 
+[info] [2024-11-12T17:05:29.070Z] : [react-plugin]: You can now view crystal_specialist_hospital in the browser.
+[info] [2024-11-12T17:05:29.070Z] : [react-plugin]: 
+[info] [2024-11-12T17:05:29.070Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-11-12T17:05:29.071Z] : [react-plugin]:   On Your Network:  http://192.168.89.183:3000/app/
+[info] [2024-11-12T17:05:29.071Z] : [react-plugin]: 
+[info] [2024-11-12T17:05:29.071Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-11-12T17:05:29.071Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-11-12T17:05:29.072Z] : [react-plugin]: 
+[debug] [2024-11-12T17:12:48.169Z] : 
+[debug] [2024-11-12T17:12:48.170Z] : ----------------------------------------------------------------------
+[debug] [2024-11-12T17:12:48.170Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-11-12T17:12:48.170Z] : CLI Version:  1.17.6
+[debug] [2024-11-12T17:12:48.171Z] : Platform:     win32
+[debug] [2024-11-12T17:12:48.171Z] : Node Version: v18.18.0
+[debug] [2024-11-12T17:12:48.183Z] : Time:         Tue Nov 12 2024 18:12:48 GMT+0100 (West Africa Standard Time)
+[debug] [2024-11-12T17:12:48.184Z] : ----------------------------------------------------------------------
+[debug] [2024-11-12T17:12:48.184Z] : 
+[debug] [2024-11-12T17:12:49.733Z] : > authorizing via signed-in user option
+[debug] [2024-11-12T17:12:49.734Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-11-12T17:12:49.752Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/26497000000009006 
+
+[debug] [2024-11-12T17:12:52.202Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 17:12:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=588d97e9-63bc-4205-a3c9-7b56c17fcaaa;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=588d97e9-63bc-4205-a3c9-7b56c17fcaaa;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T17:12:52.210Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/26497000000009006/environment 
+
+[debug] [2024-11-12T17:12:53.173Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 17:12:57 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=47c02b27-7537-4e01-aeec-b892994d7ccb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=47c02b27-7537-4e01-aeec-b892994d7ccb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T17:12:53.197Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/26497000000009006/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-11-12T17:12:54.100Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 17:12:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=1b49ea8f-6b11-4784-9645-fd142834b254;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1b49ea8f-6b11-4784-9645-fd142834b254;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-12T17:12:54.112Z] : unknown eol undefined hence skipping check
+[debug] [2024-11-12T17:12:54.344Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/26497000000009006/function/upsert 
+
+[debug] [2024-11-12T17:12:56.415Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 17:13:01 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=b14009a6059feb83ee8aa1c715a015c5; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=aff12a5d-8bd5-4395-97ac-5149b23ea459;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=aff12a5d-8bd5-4395-97ac-5149b23ea459;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-11-12T17:12:56.721Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2024-11-12T17:12:56.721Z] : i Building Application...
+[info] [2024-11-12T17:13:01.209Z] : [react-plugin]: Creating an optimized production build...
+[info] [2024-11-12T17:13:17.299Z] : [react-plugin]: Compiled successfully.
+
+[info] [2024-11-12T17:13:17.300Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2024-11-12T17:13:17.315Z] : [react-plugin]:   55.5 kB  build\static\js\main.d3795cdf.js
+[info] [2024-11-12T17:13:17.316Z] : [react-plugin]:   1.83 kB  build\static\css\main.ebcae82f.css
+[info] [2024-11-12T17:13:17.317Z] : [react-plugin]:   1.69 kB  build\static\js\453.8efb4fbf.chunk.js
+[info] [2024-11-12T17:13:17.317Z] : [react-plugin]:  
+[debug] [2024-11-12T17:13:17.716Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/26497000000009006/webapp 
+
+[debug] [2024-11-12T17:13:25.760Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 17:13:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=b14009a6059feb83ee8aa1c715a015c5; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=5cc200aa-6402-4dcd-864b-45bf3fe6f860;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5cc200aa-6402-4dcd-864b-45bf3fe6f860;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-11-12T17:13:25.764Z] : 
+[info] [2024-11-12T17:13:25.765Z] : i functions(hospital): URL => https://crystal-hospital-870617206.development.catalystserverless.com/server/hospital/execute
+[info] [2024-11-12T17:13:25.766Z] : √ functions(hospital): deploy successful
+[info] [2024-11-12T17:13:25.766Z] : 
+[info] [2024-11-12T17:13:25.767Z] : √ client: deploy successful
+[info] [2024-11-12T17:13:25.767Z] : i client: URL => https://crystal-hospital-870617206.development.catalystserverless.com/app/index.html
+[info] [2024-11-12T17:13:25.768Z] : 
+[info] [2024-11-12T17:13:25.768Z] : √ Catalyst deploy complete!
+[debug] [2024-11-12T17:13:25.769Z] : NO ERRORS REGISTERED
+[debug] [2024-11-12T17:13:25.770Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-11-12T17:13:25.770Z] : TOTAL DURATION OF COMMAND EXEC : 36059
+[debug] [2024-11-12T17:13:25.830Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-11-12T17:13:28.861Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 12 Nov 2024 17:13:33 GMT","content-length":"0","connection":"close","set-cookie":["zalb_46512fd555=c3d5ec374d3dc932973a3d50f55d8d00; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=ecce7040-3a3b-40cd-a763-95a4cedfaa95;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ecce7040-3a3b-40cd-a763-95a4cedfaa95;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
